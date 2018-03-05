@@ -11,11 +11,9 @@ block content
     li If it does, it returns both the Unix timestamp and the natural language form of that date.
 
     li If it does not contain a date or Unix timestamp, it returns null for those properties.
-    
+
   p Example usage:
   ul
-    li https://fcc-timestamp-e.glitch.me/December 15, 2015
-    li https://fcc-timestamp-e.glitch.me/December%2015,%202015
-    li https://fcc-timestamp-e.glitch.me/1450137600
-
-
+    li #[a(href="https://fcc-timestamp-e.glitch.me/December 15, 2015", target="new") 'https://fcc-timestamp-e.glitch.me/December 15, 2015']
+    li #[a(href="https://fcc-timestamp-e.glitch.me/December%2015,%202015", target="new") 'https://fcc-timestamp-e.glitch.me/December%2015,%202015']
+    li #[a(href="https://fcc-timestamp-e.glitch.me/1450137600", target="new") 'https://fcc-timestamp-e.glitch.me/1450137600']
